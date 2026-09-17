@@ -8,21 +8,23 @@
 	<title>Mes Patrio</title>
 
 	<style>
-
 		* {
 			box-sizing: border-box;
 		}
-		
+
+		/*Color del fondo y letras que se usaran en la página*/
 		body {
 			background-color: #68b081;
 			font-family: Verdana, Century Gothic, Comic Sans MS;
 		}
 
+		/*Diseño del encabezado de la página*/
 		header {
 			text-align: center;
 			padding: 30px;
 		}
 
+		/*Diseño de la barra de navegación*/
 		nav {
 			background-color: #fcf7f2;
 			border-radius: 30px; 
@@ -30,6 +32,7 @@
 			text-align: center;
 		}
 
+		/*Diseño de la letra de la barra de navegación*/
 		nav a {
 			font-family: Century Gothic;
 			text-decoration: none;
@@ -39,8 +42,9 @@
 			font-weight: bold;
 			letter-spacing: 1.5px;
 		}
-
+		
 		.article {
+			/*Diseño de la sección para la información*/
 			background-color: #fcf7f2;
 			padding: 80px;
 			margin-top: 4%;
@@ -48,6 +52,7 @@
 			width: 90%;
 			border-radius: 100px;
 
+			/*Diseño de la letra para la información*/
 			font-size: 30px;
 			font-family: Century Gothic;
 			color: #000000;
@@ -55,11 +60,13 @@
 		}
 
 		footer {
+			/*Diseño del pie de página*/
 			background-color: #fcf7f2;
 			clip-path: ellipse(65% 100% at 50% 100%);
 			margin-top: 5%;
 			padding: 40px;
 
+			/*Diseño de la letra del pie de página*/
 			text-align: center;
 			font-family: Century Gothic;
 			font-size: 20px;
@@ -67,6 +74,7 @@
 			letter-spacing: 3px;
 		}
 
+		/*Posición y tamaño de la imagen de la bandera*/
 		.bandera {
 			position: absolute;
             top: -15%;
@@ -74,6 +82,7 @@
 			width: 350px;
 		}
 
+		/*Posición y tamaño de la imagen del angel*/
 		.angel {
 			position: absolute;
             z-index: 10;
@@ -88,12 +97,14 @@
 
 <body>
 	
+	<!--Imagen de la bandera y título del encabezado-->
 	<header>
 		<img src="bandera.png" class="bandera" alt="Imagen De Bandera De México">
 		<span style=" color: black; font-family: Comic Sans MS; font-size: 80px; font-weight: bold;">MÉXICO <br></span>
 		<span style=" color: white; font-family: Comic Sans MS; font-size: 50px;">MES PATRIO</span>
 	</header>
 
+	<!--Barra de navegación con enlaces de la página-->
 	<nav>
 		<a href="index.html">INICIO</a>
 		<a href="fechas.html">FECHAS IMPORTANTES</a>
@@ -101,6 +112,7 @@
 		<a href="datos.html">DATOS CURIOSOS Y MITOS</a>
 	</nav>
 
+	<!--Secciones con la información de la página-->
 	<section class="article">
 		<h3>DATOS CURIOSOS</h3>
 		<p>La fecha del Grito: El llamado a las armas del cura Miguel Hidalgo sucedió entre las 2:00 y las 6:00 de la mañana del 16 de septiembre. Se festeja la noche del 15 por costumbre popular y motivos cívicos, no porque en ese momento haya ocurrido el evento histórico.</p>
@@ -116,8 +128,10 @@
 		<p>El día de la Independencia: El 16 de septiembre conmemora el inicio de la lucha armada, no la independencia de México. La consumación real ocurrió el 27 de septiembre de 1821, cuando el Ejército Trigarante entró triunfante a la Ciudad de México</p>
 	</section>
 
+	<!--Imagen del angel-->
 	<img src="angel.png" class="angel" alt="Imagen Del Angel">
 
+	<!--Pie de página con mi información-->
 	<footer>
 		<p>Nombre: Dania Graciela Silva Heredia</p>
 		<p>No. Control: 24308051280665</p>
