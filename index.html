@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <html lang="es">
-
+	
 <head>
 	<meta charset="UTF-8">
 	<title>Mes Patrio</title>
@@ -12,16 +12,19 @@
 			box-sizing: border-box;
 		}
 		
+<!--Color del fondo de la página y letras que se utilizaran-->
 		body {
 			background-color: #68b081;
 			font-family: Verdana, Century Gothic, Comic Sans MS;
 		}
 
+<!--Diseño del encabezado-->
 		header {
 			text-align: center;
 			padding: 30px;
 		}
 
+<!--Diseño de la barra de navegación (color, tamaño, texto)-->
 		nav {
 			background-color: #fcf7f2;
 			border-radius: 30px; 
@@ -29,6 +32,7 @@
 			text-align: center;
 		}
 
+<!--Diseño de la letra de la barra de navegación-->
 		nav a {
 			font-family: Century Gothic;
 			text-decoration: none;
@@ -38,15 +42,17 @@
 			font-weight: bold;
 			letter-spacing: 1.5px;
 		}
-
+		
 		.article {
+<!--Diseño del artículo principal de la página-->
 			background-color: #fcf7f2;
 			padding: 80px;
 			margin-top: 7%;
 			margin-left: 8%;
 			width: 65%;
 			border-radius: 250px;
-
+		
+<!--Diseño de la letra del artículo-->
 			font-size: 30px;
 			font-family: Century Gothic;
 			color: #000000;
@@ -54,18 +60,20 @@
 		}
 
 		footer {
+<!--Diseño del pie de página-->
 			background-color: #fcf7f2;
 			clip-path: ellipse(65% 100% at 50% 100%);
 			margin-top: 7%;
 			padding: 40px;
 
-			text-align: center;
+<!--Diseño de la letra del pie de págia-->
+		    text-align: center;
 			font-family: Century Gothic;
 			font-size: 20px;
 			line-height: 1;
 			letter-spacing: 3px;
 		}
-
+<!--Class para la posición y tamaño de la imagen de bandera-->
 		.bandera {
 			position: absolute;
             top: -15%;
@@ -73,6 +81,7 @@
 			width: 350px;
 		}
 
+<!--Class para la posición y tamaño de la imagen del angel-->
 		.angel {
 			position: absolute;
             z-index: 10;
@@ -86,13 +95,14 @@
 </head>
 
 <body>
-	
+	<!--Encabezado de la página con imagen de la bandera y título-->
 	<header>
 		<img src="bandera.png" class="bandera" alt="Imagen De Bandera De México">
 		<span style=" color: black; font-family: Comic Sans MS; font-size: 80px; font-weight: bold;">MÉXICO <br></span>
 		<span style=" color: white; font-family: Comic Sans MS; font-size: 50px;">MES PATRIO</span>
 	</header>
 
+	<!--Barra de navegación con los enlaces-->
 	<nav>
 		<a href="index.html">INICIO</a>
 		<a href="fechas.html">FECHAS IMPORTANTES</a>
@@ -100,12 +110,15 @@
 		<a href="datos.html">DATOS CURIOSOS Y MITOS</a>
 	</nav>
 
+	<!--Artículo principal con la información principal de la página-->
 	<section class="article">
 		<p>En esta página sobre el mes patrio podras ver todas las fechas importantes de este mes de septiembre, también a los personajes ilustres, datos curiosos y mitos sobre estas fechas tan importantes para nuestro país.</p>
 	</section>
 
+	<!--Imagen del angel-->
 	<img src="angel.png" class="angel" alt="Imagen Del Angel">
 
+	<!--Piede página con mi información-->
 	<footer>
 		<p>Nombre: Dania Graciela Silva Heredia</p>
 		<p>No. Control: 24308051280665</p>
